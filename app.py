@@ -49,7 +49,7 @@ st.markdown(
         }
         
         .stTextArea textarea {
-            background-color: rgba(255, 255, 255, 0.8) !important;
+            background-color: rgba(0, 0, 0, 0.8) !important;
             border-radius: 10px;
         }
 
