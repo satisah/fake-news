@@ -42,7 +42,7 @@ st.markdown(
         
         .main-title {
             text-align: center;
-            font-size: 150px;
+            font-size: 150px !important;
             font-weight: 600;
             color: #ff4500;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
@@ -82,7 +82,7 @@ st.markdown(
 )
 
 # Title
-st.markdown('<p class="main-title">📰 Fake News Detection 📰</p>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-title">📰 Fake News Detection 📰</h1>', unsafe_allow_html=True)
 
 # User input for news text
 news_text = st.text_area("Enter News Text", "Type your news article here...")
