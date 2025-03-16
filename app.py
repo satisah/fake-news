@@ -5,10 +5,10 @@ import string
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Load only the Logistic Regression model
-LR = joblib.load(r'Fake-News-Detection-main\logistic_regression_model.pkl')
+LR = joblib.load(r'logistic_regression_model.pkl')
 
 # Load the vectorizer
-vectorizer = joblib.load('Fake-News-Detection-main/tfidf_vectorizer.pkl')  # Ensure you save this as well, or recreate it if needed
+vectorizer = joblib.load('tfidf_vectorizer.pkl')  # Ensure you save this as well, or recreate it if needed
 
 # Function to clean text
 def wordopt(text):
