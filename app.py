@@ -42,9 +42,9 @@ st.markdown(
         
         .main-title {
             text-align: center;
-            font-size: 40px;
+            font-size: 150px;
             font-weight: 600;
-            color: white;
+            color: #ff4500;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
         
