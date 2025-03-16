@@ -82,7 +82,7 @@ st.markdown(
 )
 
 # Title
-st.markdown('<h1 class="main-title">📰 Fake News Detection 📰</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-title">📰 Fake News Detection </h1>', unsafe_allow_html=True)
 
 # User input for news text
 news_text = st.text_area("Enter News Text", "Type your news article here...")
